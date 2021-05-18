@@ -1,0 +1,10 @@
+node_modules
+.idea
+dist
+package-lock.json
+.env
+yarn.lock
+
+cypress/screenshots/*
+cypress/videos/*
+cypress/integration/examples/*

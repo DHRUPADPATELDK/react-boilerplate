@@ -1,0 +1,49 @@
+.text-left {
+  text-align: left!important;
+}
+.text-right {
+  text-align: right!important;
+}
+.text-center {
+  text-align: center!important;
+}
+.text-justify {
+  text-align: justify!important;
+}
+
+.text-primary {
+  color: $primary-color!important;
+}
+.text-secondary {
+  color: $secondary-color!important;
+}
+.text-success {
+  color: $success-color !important;
+}
+.text-danger {
+  color: $danger-color !important;
+}
+.text-warning {
+  color: $warning-color !important;
+}
+.text-info {
+  color: $info-color !important;
+}
+.text-muted {
+  color: #6c757d!important;
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+  .text-md-right {
+    text-align: right !important;
+  }
+  .text-md-center {
+    text-align: center !important;
+  }
+  .text-md-justify {
+    text-align: justify !important;
+  }
+}

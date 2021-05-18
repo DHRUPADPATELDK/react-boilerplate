@@ -1,0 +1,44 @@
+{
+  "validator": {
+    "required": [
+      "required",
+      "Verplicht"
+    ],
+    "requiredLabel": [
+      "No ${label} was entered.",
+      "Er is geen ${label} ingevuld."
+    ],
+    "maxLength": [
+      "Must be ${max} characters or less",
+      "Moet ${max} tekens of minder zijn"
+    ],
+    "confirmField": [
+      "Value must match with ${fieldName} field",
+      "Waarde moet overeenkomen met veld ${fieldName}"
+    ],
+    "email": [
+      "Invalid email address",
+      "Ongeldig email adres"
+    ],
+    "minLength": [
+      "Must be ${min} characters or more",
+      "Moet ${min} tekens of meer zijn"
+    ],
+    "number": [
+      "Must be a number",
+      "Moet een nummer zijn"
+    ],
+    "minValue": [
+      "Must be at least ${min}",
+      "Moet minimaal ${min} zijn"
+    ],
+    "alphaNumeric": [
+      "Only alphanumeric characters",
+      "Alleen alfanumerieke tekens"
+    ],
+    "phoneNumber": [
+      "Invalid phone number, must be 10 digits",
+      "Ongeldig telefoonnummer, moet 10 cijfers bevatten"
+    ]
+  }
+}

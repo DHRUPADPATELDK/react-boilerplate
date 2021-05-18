@@ -1,0 +1,67 @@
+// RESET REBOOT SCSS BOOTSTRAP
+$font-size-base: .875rem;
+$image-ratio: 63%;
+
+$container-max-widths: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1400px
+);
+
+// DON"T UNCOMMENT (Performance tweak) : Moved to _global.scss after load _variables.scss
+// @import '~bootstrap/scss/bootstrap-reboot';
+// @import '~bootstrap/scss/bootstrap-grid';
+// @import '~bootstrap/scss/mixins/grid-framework';
+
+// Set theme to dark mode (this will darken the body background color, primary color and enlighten the accent color)
+$dark-theme: false !default;
+// LAYOUT VARIABLES
+$layoutBoxed: true !default;
+$layoutBoxedWidth: 1400px !default;
+$layoutLeftSidebarPercentage: 30% !default; // Not yet implemented
+$layoutRightSidebarPercentage: 30% !default; // Not yet implemented
+$layoutContainerBorder: false !default;
+$layoutContainerBorderRadius: 0.95rem !default;
+$layoutContainerBorderShadow: 0 0.5rem 1rem rgba(#000, 0.75) !default;
+// LAYOUT VARIABLES EOL
+// COLOR VARIABLES
+$body-bg: #fff;
+$body-color: #262526;
+$headings-color: #262526;
+
+$disabled-color: #6c757d;
+
+$border-color: #ced4da;
+$border-subtle-color: rgba(0,0,0,.1);
+$border-outline-button: #6c757d;
+$border-hover-color: #999;
+
+$footer-bg-color: #000;
+
+$link-color: #262526;
+$link-hover-color: #7A5216;
+
+/*$primary-color: #308ccc;*/
+$primary-color: #616161;
+$secondary-color: #262626;
+$accent-color: #7A5216;
+$success-color: #208836;
+$danger-color: #dc3545;
+$info-color: #128296;
+$warning-color: #946B00;
+
+$dark-primary-color: darken($primary-color, 10%);
+$light-primary-color: lighten($primary-color, 10%);
+$dark-secondary-color: darken($secondary-color, 10%);
+$light-secondary-color: lighten($secondary-color, 10%);
+$dark-accent-color: darken($accent-color, 10%);
+$light-accent-color: lighten($accent-color, 10%);
+
+@if $dark-theme {
+	$primary-color: darken($primary-color, 60%);
+	$accent-color: lighten($accent-color, 60%);
+	$body-bg-color: darken($body-bg-color, 60%);
+}
+
+$skeleton-color: darken(white, 10%);

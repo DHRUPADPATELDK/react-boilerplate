@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "description":[
+      "Created with",
+      "Gemaakt met"
+    ],
+    "heading":[
+      "Customer service",
+      "Klantenservice"
+    ],
+    "contactViaMail":[
+      "Contact via mail",
+      "Contact via e-mail"
+    ],
+    "termsOfSale":[
+      "Terms of sale",
+      "Verkoopsvoorwaarden"
+    ],
+    "newsletterEmail":[
+      "Newsletter email",
+      "Nieuwsbrief e-mail"
+    ],
+    "newsletterSubmit":[
+      "Newsletter submit",
+      "Nieuwsbrief indienen"
+    ]
+  }
+}

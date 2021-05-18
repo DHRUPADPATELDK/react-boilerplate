@@ -1,0 +1,367 @@
+// @import '../../resources/css/variables';
+
+// body.bodyOpen {
+//   overflow: hidden;
+//   @media (min-width: 992px) {
+//     padding-right: 17px !important;
+//   }
+// }
+// .overlay {
+//   position: fixed;
+//   left: 0;
+//   top: 0;
+//   overflow-y: auto;
+//   width: 100%;
+//   height: 100%;
+//   text-align: center;
+//   z-index: 9999999999;
+
+//   &::before {
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(17, 17, 17, .65);
+//     z-index: 0;
+//     opacity: 0;
+//     transition: opacity .2s ease-in-out;
+//     content: "";
+//   }
+
+//   &:global(.ReactModal__Overlay--after-open)::before {
+//     opacity: 1;
+//   }
+//   &:global(.ReactModal__Overlay--before-close)::before {
+//     opacity: 0;
+//   }
+//   .modal {
+//     text-align: left;
+//   }
+
+
+//   @media (max-width: 991px) {
+//     .modal {
+//       position: fixed;
+//       left: 0;
+//       top: 0;
+//       width: 100%;
+//       height: 100%;
+//       background-color: #fff;
+//       z-index: 9999;
+//     }
+//   }
+//   @media (min-width: 992px) {
+//     &::after {
+//       content: '';
+//       display: inline-block;
+//       height: 100%;
+//       vertical-align: middle;
+//     }
+//     .modal {
+//       position: relative;
+//       display: inline-block;
+//       width: 80%;
+//       height: auto;
+//       border-radius: .25rem;
+//       background-color: #fff;
+//       margin: 1.5rem;
+//       vertical-align: middle;
+//       z-index: 10;
+//     }
+//   }
+// }
+
+// .wrapper {
+//   text-align: left;
+
+//   .header {
+//     .closeButton {
+//       cursor: pointer;
+//     }
+//     :global(.subHeading) {
+//       margin-bottom: 0;
+//     }
+//   }
+
+//   @media (max-width: 991px) {
+//     display: -ms-flexbox;
+//     display: flex;
+//     -ms-flex-direction: column;
+//     flex-direction: column;
+//     height: 100%;
+
+//     .header {
+//       display: -ms-flexbox;
+//       display: flex;
+//       -ms-flex-pack: justify;
+//       justify-content: space-between;
+//       -ms-flex-align: center;
+//       align-items: center;
+//       min-height: 37px;
+//       background-color: $secondary-color;
+
+//       .closeButton {
+//         height: 37px;
+//         line-height: 37px;
+//         color: #fff;
+//         text-align: center;
+//         padding-left: 15px;
+//         padding-right: 15px;
+
+//         svg {
+//           font-size: 1.25rem;
+//           color: #fff;
+//           vertical-align: -0.25em;
+//         }
+//       }
+//       :global(.subHeading) {
+//         color: #fff;
+//         text-align: center;
+//         padding-top: .45rem;
+//         padding-bottom: .45rem;
+//       }
+//       .mobileHeaderSpacer {
+//         -ms-flex: 43.75px 0 0;
+//         flex: 43.75px 0 0;
+//         height: 37px;
+//       }
+//     }
+//     .body {
+//       overflow-y: auto;
+//       display: -ms-flexbox;
+//       display: flex;
+//       -ms-flex-direction: column;
+//       flex-direction: column;
+//       padding: 15px;
+//       height: 100%;
+//     }
+//   }
+//   @media (min-width: 992px) {
+//     padding: 1rem;
+
+//     .header {
+//       display: -ms-flexbox;
+//       display: flex;
+//       -ms-flex-pack: justify;
+//       justify-content: space-between;
+//       -ms-flex-align: center;
+//       align-items: center;
+//       margin-bottom: 1rem;
+
+//       .closeButton {
+//         -ms-flex-order: 1;
+//         order: 1;
+//         line-height: 1;
+//         font-size: 1.5rem;
+//       }
+//       :global(.subHeading) {
+//         -ms-flex-order: 0;
+//         order: 0;
+//       }
+//       .mobileHeaderSpacer {
+//         display: none;
+//         visibility: hidden;
+//       }
+//     }
+//   }
+// }
+
+// /* custom modals */
+// :global(.ReactModalPortal--layeredFilterExplanation),
+// :global(.ReactModalPortal--addToCart),
+// :global(.ReactModalPortal--mobileMainnav),
+// :global(.ReactModalPortal--pickupPostNL),
+// :global(.ReactModalPortal--orderHistory),
+// :global(.ReactModalPortal--postReview),
+// :global(.ReactModalPortal--login) {
+//   .overlay {
+//     @media (max-width: 991px) {
+//       .modal {
+//         left: -100%;
+//         width: calc(100% - 3rem);
+//         transition: left .2s ease-in-out;
+//       }
+
+//       &:global(.ReactModal__Overlay--after-open) {
+//         .modal {
+//           left: 0;
+//         }
+//       }
+//       &:global(.ReactModal__Overlay--before-close) {
+//         .modal {
+//           left: -100%;
+//         }
+//       }
+//     }
+//   }
+// }
+// :global(.ReactModalPortal--layeredFilterExplanation),
+// :global(.ReactModalPortal--pickupPostNL),
+// :global(.ReactModalPortal--orderHistory),
+// :global(.ReactModalPortal--postReview) {
+//   .overlay {
+//     @media (min-width: 992px) {
+//       .modal {
+//         max-width: 40rem;
+//         :global(.h-100) {
+//           width: 100%;
+//           height: auto!important;
+//         }
+//       }
+//     }
+//   }
+// }
+// :global(.ReactModalPortal--login) {
+//   .overlay {
+//     @media (min-width: 992px) {
+//       .modal {
+//         max-width: 28rem;
+//         :global(.h-100) {
+//           width: 100%;
+//           height: auto!important;
+//         }
+//       }
+//     }
+//   }
+// }
+// :global(.ReactModalPortal--pickupPostNL) {
+//   .overlay {
+//     @media (min-width: 992px) {
+//       display: -ms-flexbox;
+//       display: flex;
+//       -ms-flex-align: center;
+//       align-items: center;
+//       -ms-flex-pack: center;
+//       justify-content: center;
+//       .modal {
+//         display: -ms-flexbox;
+//         display: flex;
+//         max-height: calc(100% - 3rem);
+//       }
+//     }
+//   }
+//   .wrapper {
+//     @media (min-width: 992px) {
+//       display: -ms-flexbox;
+//       display: flex;
+//       -ms-flex-direction: column;
+//       flex-direction: column;
+//       width: 100%;
+//       max-height: 100%;
+//       .body {
+//         overflow-x: hidden;
+//         overflow-y: auto;
+//       }
+//     }
+//   }
+// }
+// :global(.ReactModalPortal--addToCart) {
+//   .overlay {
+//     @media (min-width: 992px) {
+//       .modal {
+//         max-width: 50rem;
+//         :global(.h-100) {
+//           height: auto!important;
+//         }
+//       }
+//     }
+//   }
+//   .wrapper {
+//     @media (max-width: 991px) {
+//       .body {
+//         padding-bottom: 64px;
+//       }
+//     }
+//   }
+// }
+// :global(.ReactModalPortal--payOrder) {
+//   .overlay {
+//     @media (min-width: 992px) {
+//       .modal {
+//         max-width: 40rem;
+//         :global(.h-100) {
+//           height: auto!important;
+//         }
+//       }
+//     }
+//   }
+//   .wrapper {
+//     @media (max-width: 991px) {
+//       .body {
+//         padding-bottom: 64px;
+//       }
+//     }
+//   }
+// }
+
+// :global(.ReactModalPortal--mobileMainnav) {
+//   @media (min-width: 992px) {
+//     display: none;
+//     visibility: hidden;
+//   }
+// }
+
+// :global(.ReactModalPortal--productGallery) {
+//   .overlay {
+//     @media (max-width: 991px) {
+//       .modal {
+//         top: 100%;
+//         transition: top .2s ease-in-out;
+//       }
+
+//       &:global(.ReactModal__Overlay--after-open) {
+//         .modal {
+//           top: 0;
+//         }
+//       }
+//       &:global(.ReactModal__Overlay--before-close) {
+//         .modal {
+//           top: 100%;
+//         }
+//       }
+//     }
+//   }
+// }
+// :global(.ReactModalPortal--youTubeVideo) {
+//   .overlay {
+//     @media (max-width: 991px) {
+//       .modal {
+//         position: relative;
+//         top: 50%;
+//         right: 10%;
+//         left: 10%;
+//         width: 80%;
+//         height: auto;
+//         text-align: center;
+//         background-color: transparent;
+//         transform: translateY(-50%);
+//         &::before {
+//           display: block;
+//           padding-top: 56.25%;
+//           content: "";
+//         }
+//       }
+//     }
+//   }
+// }
+
+// :global(.ReactModalPortal--productNotification){
+//   .overlay {
+//     @media (min-width: 992px) {
+//       .modal {
+//         max-width: 28rem;
+//         :global(.h-100) {
+//           width: 100%;
+//           height: auto!important;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .editLink {
+//   svg {
+//     margin-right: .5rem;
+//   }
+// }

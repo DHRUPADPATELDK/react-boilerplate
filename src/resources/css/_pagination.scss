@@ -1,0 +1,64 @@
+/* pagination */
+.paginationWrapper {
+  margin-bottom: 1.5rem;
+
+  ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+      &+li:not(.previous):not(.next):not(:nth-child(2)) {
+        margin-left: .5rem;
+      }
+      &.previous {
+        margin-right: 1rem;
+        svg {
+          margin-right: .5rem;
+        }
+      }
+      &.next {
+        margin-left: 1rem;
+        svg {
+          margin-left: .5rem;
+        }
+      }
+      a {
+        display: block;
+        border: 1px solid $border-color;
+        padding: .5rem 1rem;
+        border-radius: .25rem;
+
+        &:hover,
+        &:focus {
+          border-color: $border-hover-color;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        svg {
+
+        }
+
+      }
+      &.disabled {
+        display: none;
+        visibility: hidden;
+      }
+      &.active {
+        a {
+          border-color: #b8daff;
+          background-color: #cce5ff;
+          color: #004085;
+
+          &:hover,
+          &:focus {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+@import 'variables';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/utilities';
+@import 'alertBox';
+@import 'buttons';
+@import 'forms';
+@import 'input-group';
+@import 'pagination';
+@import 'sizing';
+@import 'tables';
+@import 'image';
+@import 'text';
+@import 'type';
+
+// NOTE: Import this for bootstrap modal
+// @import '~bootstrap/scss/modal';
+
+/*@import 'util';*/
+
+html {
+  min-width: 320px;
+}
+html, body,
+#app {
+  height: 100%;
+}
+*:focus {
+  outline: none!important;
+}
+a {
+  text-decoration: underline;
+}
+.divider {
+  hr {
+    height: 1px;
+    border: none;
+    background-color: $border-subtle-color;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+// COLOR VARIABLES EOL
+// CSS RULES, THIS SHOULD BE REMOVED AND IMPLEMENTED THE RIGHT WAY BY RISKI
+@if $layoutBoxed {
+  // Boxed width
+  @media (min-width: 1200px) {
+    .container {
+      max-width: $layoutBoxedWidth;
+    }
+  }
+}
+
+@else {
+  // Fluid width
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+
+  #src-App-Components-AppShell-styles__wrapper>footer>div>div.footerAddress {
+    float: left;
+  }
+
+  #src-App-Components-AppShell-styles__wrapper>footer>div>div.footerCopyright {
+    float: right;
+  }
+}
+
+@if $layoutContainerBorder {
+  #src-App-Components-AppShell-styles__wrapper>main>div>div>div.col-12.col-md-2,
+  #src-App-Components-AppShell-styles__wrapper>main>div>div>div.col {
+    border: 1px solid $base-container-bg-color;
+    border-radius: $layoutContainerBorderRadius !important;
+    box-shadow: $layoutContainerBorderShadow !important;
+  }
+}
+
+.sticky {
+  .CategorySelect {
+    display: block;
+  }
+}
+
+:global(.Toastify) {
+  :global(.Toastify__toast-container--bottom-center) {
+    :global(.Toastify__close-button) {
+      margin-left: 1rem;
+    }
+  }
+  :global(.Toastify__toast--info) {
+    background-color: $secondary-color;
+    :global(.Toastify__toast-body) {
+      a {
+        color: #fff;
+      }
+    }
+    :global(.Toastify__progress-bar.Toastify__progress-bar--info) {
+      background-color: $accent-color;
+    }
+  }
+  :global(.Toastify__toast--error) {
+    background-color: $accent-color;
+    :global(.Toastify__toast-body) {
+      a {
+        color: #fff;
+      }
+    }
+    :global(.Toastify__progress-bar.Toastify__progress-bar--error) {
+      background-color: $secondary-color;
+    }
+  }
+  @media (max-width: 991px) {
+    :global(.Toastify__toast--info) {
+      padding: 15px;
+    }
+  }
+  @media (min-width: 992px) {
+    :global(.Toastify__toast-container--bottom-center) {
+      width: auto;
+      min-width: 320px;
+      margin-left: 0;
+      transform: translateX(-50%);
+    }
+    :global(.Toastify__toast--info) {
+      :global(.Toastify__toast-body) {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  :global(#tidio-chat-iframe) {
+    bottom: 50px !important;
+  }
+}

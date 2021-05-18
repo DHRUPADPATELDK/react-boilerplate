@@ -1,0 +1,16 @@
+{
+  "dashboard": {
+    "notYouLabel": [
+      "Is this not you? Please click",
+      "Ben je dit niet? Klik dan op"
+    ],
+    "editLoginInfo": [
+      "Edit login information",
+      "Aanmeldingsgegevens bewerken"
+    ],
+    "addressDetails": [
+      "Address Details",
+      "Adresgegevens"
+    ]
+  }
+}

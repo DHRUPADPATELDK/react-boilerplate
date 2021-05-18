@@ -1,0 +1,13 @@
+{
+  "extends": [
+      "./node_modules/@pawjs/pawjs/tslint.json"
+  ],
+  "rules": {
+      "no-submodule-imports": false,
+      "max-line-length": false,
+      "jsx-no-multiline-js": false,
+      "jsx-wrap-multiline": false,
+      "variable-name": false,
+      "jsx-no-lambda": false
+  }
+}

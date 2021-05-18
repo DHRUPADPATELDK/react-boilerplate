@@ -1,0 +1,36 @@
+{
+  "login": {
+    "title": [
+      "Not yet a customer?",
+      "Nog geen klant?"
+    ],
+    "forgotPassLabel": [
+      "Forgot your password",
+      "Wachtwoord vergeten"
+    ],
+    "note1": [
+      "Manage all your orders and returns.",
+      "Beheer makkelijk je bestellingen en bestelstatus."
+    ],
+    "note2": [
+      "Order faster with your saved address information.",
+      "Bestel sneller met je opgeslagen adresgegevens."
+    ],
+    "note3": [
+      "Access your shopping cart on any device.",
+      "Toegang tot je verlanglijstje op elk apparaat."
+    ],
+    "weWontPost": [
+      "No worries, we won't post anything to your timeline.",
+      "Geen zorgen, we zetten niks op je tijdlijn."
+    ],
+    "or": [
+      "Or",
+      "Of"
+    ],
+    "continueAsGuest": [
+      "Continue as guest",
+      "Ga door als gast"
+    ]
+  }
+}

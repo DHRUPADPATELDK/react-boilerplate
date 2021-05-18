@@ -1,0 +1,16 @@
+{
+  "notFound": {
+    "label": [
+      "Page not found",
+      "Pagina niet gevonden"
+    ],
+    "note": [
+      "You’ve been redirected to a page that does not exist or has been moved. We’re happy to help you find your way back.",
+      "Je bent terecht gekomen op een pagina die niet meer bestaat of is verplaatst. We helpen je graag de weg terug te vinden."
+    ],
+    "homePage": [
+      "Go To Homepage",
+      "Ga naar homepagina"
+    ]
+  }
+}

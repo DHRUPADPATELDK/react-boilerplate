@@ -1,0 +1,9 @@
+{
+  "env": {
+    "URL": "",
+    "typingDelay": 0
+  },
+  "video": true,
+  "screenshot": true,
+  "projectId": ""
+}

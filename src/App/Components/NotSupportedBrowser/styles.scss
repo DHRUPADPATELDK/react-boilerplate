@@ -1,0 +1,47 @@
+.holder {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  text-align: center;
+  z-index: 9999;
+
+  .container {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    text-align: left;
+    z-index: 10;
+    .wrapper {
+      border: .25rem solid orange;
+      border-radius: .5rem;
+      background-color: #fff;
+      padding: 1rem;
+
+      svg {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 75%;
+        height: 75%;
+        color: orange;
+        transform: translate(-50%, -50%);
+        opacity: .15;
+        pointer-events: none;
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 50rem;
+    }
+  }
+}

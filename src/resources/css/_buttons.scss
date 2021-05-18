@@ -1,0 +1,290 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: #212529;
+  text-decoration: none;
+  padding: .625rem 1rem;
+  border-radius: .25rem;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  box-shadow: inset 0 -2px 0 0 rgba(0,0,0,.125)
+}
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-primary {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: $dark-primary-color;
+  border-color: $dark-primary-color;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: $dark-primary-color;
+  border-color: $dark-primary-color;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: $dark-secondary-color;
+  border-color: $dark-secondary-color;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: $dark-secondary-color;
+  border-color: $dark-secondary-color;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: $success-color;
+  border-color: $success-color;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: darken($success-color,10);
+  border-color: darken($success-color,10);
+}
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: darken($success-color,10);
+  border-color: darken($success-color,10);
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show>.btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #117a8b;
+  border-color: #10707f;
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: $warning-color;
+  border-color: $warning-color;
+}
+.btn-warning:hover {
+  color: #212529;
+  background-color: darken($warning-color,10);
+  border-color: darken($warning-color,10);
+}
+.btn-warning:not(:disabled):not(.disabled).active,
+.btn-warning:not(:disabled):not(.disabled):active,
+.show>.btn-warning.dropdown-toggle {
+  color: #212529;
+  background-color: darken($warning-color,10);
+  border-color: darken($warning-color,10);
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: $danger-color;
+  border-color: $danger-color;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: darken($danger-color,10);
+  border-color: darken($danger-color,10);
+}
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show>.btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: darken($danger-color,10);
+  border-color: darken($danger-color,10);
+}
+
+.btn-light {
+  color: #fff;
+  background-color: $accent-color;
+  border-color: $accent-color;
+}
+.btn-light:hover {
+  color: #fff;
+  background-color: darken($accent-color,10);
+  border-color: darken($accent-color,10);
+}
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: darken($accent-color,10);
+  border-color: darken($accent-color,10);
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: darken(#343a40,10);
+  border-color: darken(#343a40,10);
+}
+.btn-dark:not(:disabled):not(.disabled).active,
+.btn-dark:not(:disabled):not(.disabled):active,
+.show>.btn-dark.dropdown-toggle {
+  color: #fff;
+  background-color: darken(#343a40,10);
+  border-color: darken(#343a40,10);
+}
+.btn-link {
+  font-weight: 400;
+  color: $secondary-color;
+  text-decoration: none;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.btn-link:hover {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.btn-outline-primary {
+  color: $primary-color;
+}
+
+.btn-outline-secondary {
+  color: $secondary-color;
+}
+
+.btn-outline-success {
+  color: $success-color;
+}
+
+.btn-outline-danger {
+  color: $danger-color;
+}
+
+.btn-outline-warning {
+  color: $warning-color;
+}
+
+.btn-outline-info {
+  color: $info-color;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-dark {
+  color: #343a40;
+  border-color: #343a40;
+}
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-success,
+.btn-outline-danger,
+.btn-outline-warning,
+.btn-outline-info {
+  border-color: lighten($border-outline-button,30);
+}
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover,
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-warning:hover,
+.btn-outline-info:hover {
+  border-color: $border-outline-button;
+}
+.btn-outline-primary:hover {
+  color: $primary-color;
+}
+.btn-outline-secondary:hover {
+  color: $secondary-color;
+}
+.btn-outline-success:hover {
+  color: $success-color;
+}
+.btn-outline-danger:hover {
+  color: $danger-color;
+}
+.btn-outline-warning:hover {
+  color: $warning-color;
+}
+.btn-outline-info:hover {
+  color: $info-color;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+.btn-icon-left {
+  svg {
+    margin-right: .5rem;
+  }
+}
+.btn-icon-right {
+  svg {
+    margin-left: .5rem;
+  }
+}
+
+.btn.disabled,
+.btn:disabled {
+  opacity: .65;
+}

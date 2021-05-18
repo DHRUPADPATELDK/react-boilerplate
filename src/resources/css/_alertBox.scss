@@ -1,0 +1,29 @@
+.alertBox {
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    li {
+      label {
+        margin-bottom: 0;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.alertBoxDanger {
+  border-color: #721c24;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.alertBoxInfo {
+  border-color: #004085;
+  background-color: #cce5ff;
+  color: #004085;
+}

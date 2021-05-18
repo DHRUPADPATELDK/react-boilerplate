@@ -1,0 +1,718 @@
+{
+  "updateTitle": [
+    "A new version of webshop is available",
+    "Er is een nieuwe versie van de webshop beschikbaar"
+  ],
+  "updateBtnTitle": [
+    "Click here to update",
+    "Klik hier om te updaten"
+  ],
+  "close": [
+    "Close",
+    "Sluiten"
+  ],
+  "hello": [
+    "Hello",
+    "Hallo"
+  ],
+  "of": [
+    "of",
+    "van"
+  ],
+  "with": [
+    "With",
+    "Met"
+  ],
+  "by": [
+    "By",
+    "door"
+  ],
+  "on": [
+    "On",
+    "Op"
+  ],
+  "show": [
+    "Show",
+    "Toon"
+  ],
+  "products": [
+    "Products",
+    "Producten"
+  ],
+  "newsletter": [
+    "Newsletter",
+    "Nieuwsbrief"
+  ],
+  "toSend": [
+    "To send",
+    "Verzenden"
+  ],
+  "copyright": [
+    "Copyright",
+    "Copyright"
+  ],
+  "followUs": [
+    "Follow us",
+    "Volg ons"
+  ],
+  "paymentMethods": [
+    "Payment methods",
+    "Betaalmethoden"
+  ],
+  "home": [
+    "Home",
+    "Home"
+  ],
+  "loginWord": [
+    "Login",
+    "Inloggen"
+  ],
+  "signupWord": [
+    "Signup",
+    "Inschrijven"
+  ],
+  "dashboardWord": [
+    "Dashboard",
+    "Dashboard"
+  ],
+  "topBrands": [
+    "Top Brands",
+    "Topmerken"
+  ],
+  "reviewScore": [
+    "Review score",
+    "Reviewscore"
+  ],
+  "reviews": [
+    "Reviews",
+    "Beoordelingen"
+  ],
+  "manufacturer": [
+    "Manufacturer",
+    "Merken"
+  ],
+  "customerService": [
+    "Customer service",
+    "Klantenservice"
+  ],
+  "installationService": [
+    "Installation service",
+    "Installatieservice"
+  ],
+  "description": [
+    "Description",
+    "Omschrijving"
+  ],
+  "averageScore": [
+    "Average Score",
+    "Gemiddelde score"
+  ],
+  "author": [
+    "Author",
+    "Auteur"
+  ],
+  "shoppingCart": [
+    "Shopping Cart",
+    "Winkelwagen"
+  ],
+  "shoppingCart2": [
+    "Shopping Cart",
+    "Winkelwagen"
+  ],
+  "allAboard": [
+    "Products",
+    "Artikelen"
+  ],
+  "number": [
+    "No.",
+    "No."
+  ],
+  "subtotal": [
+    "Subtotal",
+    "Subtotaal"
+  ],
+  "discountCode": [
+    "Discount Code",
+    "Kortingscode"
+  ],
+  "shipping": [
+    "Shipping",
+    "Verzenden"
+  ],
+  "shippingCost": [
+    "Shipping Cost",
+    "Verzendkosten"
+  ],
+  "overview": [
+    "Overview",
+    "Overzicht"
+  ],
+  "back": [
+    "Back",
+    "Terug"
+  ],
+  "continue": [
+    "Continue",
+    "Doorgaan"
+  ],
+  "firstName": [
+    "First Name",
+    "Voornaam"
+  ],
+  "middleName": [
+    "Middle Name",
+    "Tussenvoegsel"
+  ],
+  "lastName": [
+    "Last Name",
+    "Achternaam"
+  ],
+  "postalCode": [
+    "Postal Code",
+    "Postcode"
+  ],
+  "houseNumber": [
+    "House Number",
+    "Huisnummer"
+  ],
+  "addition": [
+    "Addition",
+    "Toevoeging"
+  ],
+  "streetName": [
+    "Street name",
+    "Straatnaam"
+  ],
+  "residence": [
+    "Residence",
+    "Woonplaats"
+  ],
+  "chooseCountry": [
+    "Choose country",
+    "Kies land"
+  ],
+  "country": [
+    "Country",
+    "Land"
+  ],
+  "emailWord": [
+    "Email",
+    "E-mail"
+  ],
+  "emailAddress": [
+    "Email address",
+    "E-mailadres"
+  ],
+  "telephoneNumber": [
+    "Telephone number",
+    "Telefoonnummer"
+  ],
+  "mobileNumber": [
+    "Mobile number",
+    "Mobiel"
+  ],
+  "explanation": [
+    "Explanation",
+    "Uitleg"
+  ],
+  "price": [
+    "Price",
+    "Prijs"
+  ],
+  "logout": [
+    "log out",
+    "uitloggen"
+  ],
+  "address": [
+    "Address",
+    "Adres"
+  ],
+  "invoice": [
+    "Invoice",
+    "Factuur"
+  ],
+  "and": [
+    "and",
+    "en"
+  ],
+  "deliveryAddress": [
+    "Delivery address",
+    "Afleveradres"
+  ],
+  "invoiceAddress": [
+    "Invoice address",
+    "Factuuradres"
+  ],
+  "edit": [
+    "Edit",
+    "Bewerken"
+  ],
+  "personal": [
+    "Personal",
+    "Persoonlijk"
+  ],
+  "information": [
+    "Information",
+    "Informatie"
+  ],
+  "personalInformation": [
+    "Personal information",
+    "Persoonlijke gegevens"
+  ],
+  "credentials": [
+    "Credentials",
+    "Inloggegevens"
+  ],
+  "name": [
+    "Name",
+    "Naam"
+  ],
+  "account": [
+    "Account",
+    "Account"
+  ],
+  "accountType": [
+    "Account type",
+    "Type account"
+  ],
+  "language": [
+    "Language",
+    "Taal"
+  ],
+  "password": [
+    "Password",
+    "Wachtwoord"
+  ],
+  "send": [
+    "Send",
+    "Versturen"
+  ],
+  "ourProduct": [
+    "Our Product",
+    "Ons Product"
+  ],
+  "submit": [
+    "Submit",
+    "Versturen"
+  ],
+  "new": [
+    "New",
+    "Nieuw"
+  ],
+  "save": [
+    "Save",
+    "Opslaan"
+  ],
+  "cancel": [
+    "Cancel",
+    "Annuleren"
+  ],
+  "thanks": [
+    "Thanks",
+    "Bedankt"
+  ],
+  "customer": [
+    "Customer",
+    "Klant"
+  ],
+  "loading": [
+    "Loading",
+    "Bezig met laden"
+  ],
+  "createAccount": [
+    "Create account",
+    "Maak account"
+  ],
+  "private": [
+    "Private",
+    "Privé"
+  ],
+  "salutation": [
+    "Salutation",
+    "Begroeting"
+  ],
+  "prefix": [
+    "Prefix",
+    "Voorvoegsel"
+  ],
+  "no": [
+    "No",
+    "Nee"
+  ],
+  "suffix": [
+    "Suffix",
+    "Achtervoegsel"
+  ],
+  "yes": [
+    "Yes",
+    "Ja"
+  ],
+  "birthDate": [
+    "Birth date",
+    "Geboortedatum"
+  ],
+  "title": [
+    "Title",
+    "Titel"
+  ],
+  "message": [
+    "Message",
+    "Bericht"
+  ],
+  "rating": [
+    "Rating",
+    "Beoordeling"
+  ],
+  "mr.": [
+    "Mr.",
+    "Dhr."
+  ],
+  "ms.": [
+    "Ms.",
+    "Mevr."
+  ],
+  "orderHistoryWord": [
+    "Order history",
+    "Bestelverleden"
+  ],
+  "monday": [
+    "Monday",
+    "Maandag"
+  ],
+  "tuesday": [
+    "Tuesday",
+    "Dinsdag"
+  ],
+  "wednesday": [
+    "Wednesday",
+    "Woensdag"
+  ],
+  "thursday": [
+    "Thursday",
+    "Donderdag"
+  ],
+  "friday": [
+    "Friday",
+    "Vrijdag"
+  ],
+  "saturday": [
+    "Saturday",
+    "Zaterdag"
+  ],
+  "sunday": [
+    "Sunday",
+    "Zondag"
+  ],
+  "january": [
+    "January",
+    "Januari"
+  ],
+  "february": [
+    "February",
+    "Februari"
+  ],
+  "march": [
+    "March",
+    "Maart"
+  ],
+  "april": [
+    "April",
+    "April"
+  ],
+  "may": [
+    "May",
+    "Mei"
+  ],
+  "june": [
+    "June",
+    "Juni"
+  ],
+  "july": [
+    "July",
+    "Juli"
+  ],
+  "august": [
+    "August",
+    "Augustus"
+  ],
+  "september": [
+    "September",
+    "September"
+  ],
+  "october": [
+    "October",
+    "Oktober"
+  ],
+  "november": [
+    "November",
+    "November"
+  ],
+  "december": [
+    "December",
+    "December"
+  ],
+  "quantity": [
+    "Quantity",
+    "Aantal"
+  ],
+  "productWord": [
+    "Product",
+    "Artikel"
+  ],
+  "general": [
+    "General",
+    "Algemeen"
+  ],
+  "total": [
+    "Total",
+    "Totaal"
+  ],
+  "tax": [
+    "VAT",
+    "BTW"
+  ],
+  "delivery": [
+    "Delivery",
+    "Bezorgen"
+  ],
+  "payment": [
+    "Payment",
+    "Betaalwijze"
+  ],
+  "paymentMethod": [
+    "Payment method",
+    "Betaalmethode"
+  ],
+  "date": [
+    "Date",
+    "Datum"
+  ],
+  "discount": [
+    "Discount",
+    "Korting"
+  ],
+  "status": [
+    "Status",
+    "Status"
+  ],
+  "waitingStatus": [
+    "Waiting status",
+    "Wacht status"
+  ],
+  "remove": [
+    "Remove",
+    "Verwijder"
+  ],
+  "from": [
+    "From",
+    "Van"
+  ],
+  "viewAll": [
+    "View all",
+    "Bekijk alle"
+  ],
+  "categories": [
+    "Categories",
+    "Categorieën"
+  ],
+  "next": [
+    "Next",
+    "Volgende"
+  ],
+  "previous": [
+    "Previous",
+    "Vorige"
+  ],
+  "step": [
+    "Step",
+    "Stap"
+  ],
+  "first": [
+    "First",
+    "Eerste"
+  ],
+  "last": [
+    "Last",
+    "Laatste"
+  ],
+  "subCategories": [
+    "Sub Categories",
+    "Subcategorieën"
+  ],
+  "confirm": [
+    "Confirm",
+    "Bevestigen"
+  ],
+  "gender": [
+    "Gender",
+    "Geslacht"
+  ],
+  "male": [
+    "Male",
+    "Mannetje"
+  ],
+  "female": [
+    "Female",
+    "vrouw"
+  ],
+  "belgium": [
+    "Belgium",
+    "België"
+  ],
+  "france": [
+    "France",
+    "Frankrijk"
+  ],
+  "germany": [
+    "Germany",
+    "Duitsland"
+  ],
+  "luxembourg": [
+    "Luxembourg",
+    "Luxemburg"
+  ],
+  "netherlands": [
+    "Netherlands",
+    "Nederland"
+  ],
+  "switzerland": [
+    "Switzerland",
+    "Zwitserland"
+  ],
+  "filtering": [
+    "Filtering",
+    "Filteren"
+  ],
+  "specifications": [
+    "Specifications",
+    "Specificaties"
+  ],
+  "wishlist": [
+    "Wish list",
+    "Op verlanglijstje"
+  ],
+  "viewShoppingCart": [
+    "View shopping cart",
+    "Bekijk winkelmandje"
+  ],
+  "backContinueShopping": [
+    "Continue shopping",
+    "Verder winkelen"
+  ],
+  "continueOrder": [
+    "I'm ready to order",
+    "Ik ga bestellen"
+  ],
+  "order": [
+    "Order",
+    "Bestellen"
+  ],
+  "orders": [
+    "Orders",
+    "Bestellingen"
+  ],
+  "change": [
+    "Change",
+    "Wijzig"
+  ],
+  "editShoppingCart": [
+    "Edit shopping cart",
+    "Wijzig winkelwagen"
+  ],
+  "almostYours": [
+    "Almost yours",
+    "Bijna van jou"
+  ],
+  "ascending": [
+    "Ascending",
+    "Oplopend"
+  ],
+  "descending": [
+    "Descending",
+    "Aflopend"
+  ],
+  "brand": [
+    "Brand",
+    "Merk"
+  ],
+  "brands": [
+    "Brands",
+    "Merken"
+  ],
+  "standard": [
+    "Standard",
+    "Standaard"
+  ],
+  "mostSold": [
+    "Most sold",
+    "Meest verkocht"
+  ],
+  "sortOn": [
+    "Sort on",
+    "Sorteer op"
+  ],
+  "resultFor": [
+    "Result for",
+    "Resultaten voor"
+  ],
+  "result": [
+    "Result",
+    "resultaat"
+  ],
+  "company": [
+    "Company",
+    "Bedrijf"
+  ],
+  "compare": [
+    "Compare",
+    "Vergelijk"
+  ],
+  "username": [
+    "Username",
+    "Gebruikersnaam"
+  ],
+  "to": [
+    "to",
+    "tot"
+  ],
+  "summary": [
+    "Summary",
+    "Samenvatting"
+  ],
+  "availability": [
+    "Availability",
+    "Beschikbaarheid"
+  ],
+  "bestSold": [
+    "Best sold",
+    "Meest verkocht"
+  ],
+  "subscribe": [
+    "Subscribe",
+    "Aanmelden"
+  ],
+  "checkoutWord": [
+    "Checkout",
+    "Kassa"
+  ],
+  "added": [
+    "Added",
+    "Toegevoegd"
+  ],
+  "showMore": [
+    "Show more",
+    "Toon meer"
+  ],
+  "showLess": [
+    "Show less",
+    "Toon minder"
+  ],
+  "bank": [
+    "Bank",
+    "Bank"
+  ],
+  "pageNotFound": [
+    "Page Not found",
+    "Pagina niet gevonden"
+  ]
+}

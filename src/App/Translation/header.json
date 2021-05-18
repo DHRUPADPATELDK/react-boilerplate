@@ -1,0 +1,40 @@
+{
+  "header": {
+    "languageTitle": [
+      "Select Language",
+      "Selecteer taal"
+    ],
+    "selectCurrency": [
+      "Select currency",
+      "Selecteer valuta"
+    ],
+    "selectCategory": [
+      "Select category",
+      "Selecteer categorie"
+    ],
+    "guestSearch": [
+      "Search for....",
+      "Zoeken naar..."
+    ],
+    "userSearch": [
+      "Hi ${firstName} ${middleName} ${lastName}, what are you looking for?",
+      "Hoi ${firstName} ${middleName} ${lastName}, waar ben je naar op zoek?"
+    ],
+    "searchText": [
+      "Search text",
+      "Zoek tekst"
+    ],
+    "searchSubmit": [
+      "Search submit",
+      "Zoeken indienen"
+    ],
+    "toggleNavigation": [
+      "Toggle navigation",
+      "Schakel navigatie"
+    ],
+    "resultNotFound": [
+      "No Suggestions",
+      "Geen suggesties"
+    ]
+  }
+}

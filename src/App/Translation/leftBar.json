@@ -1,0 +1,24 @@
+{
+  "leftBar": {
+    "myDashboard": [
+      "My Dashboard",
+      "Mijn Dashboard"
+    ],
+    "myInformation": [
+      "My Information",
+      "Mijn informatie"
+    ],
+    "myOrderDetail": [
+      "My Order detail",
+      "Mijn bestellingsdetails"
+    ],
+    "myOrderHistory": [
+      "My Order history",
+      "Mijn bestelgeschiedenis"
+    ],
+    "toSort": [
+      "To sort",
+      "Sorteren"
+    ]
+  }
+}
